@@ -66,7 +66,8 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 if table.find(HWIDTable,HWID) then
 
-print("player is whitelisted")  loadstring(game:HttpGet("https://pastebin.com/raw/zC7CSvtS",true))()
+print("player is whitelisted")  
+loadstring(game:HttpGet("https://pastebin.com/raw/eVSsNr9j",true))()
 
 else if not table.find(HWIDTable,HWID) then
 
