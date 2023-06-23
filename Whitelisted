@@ -1,5 +1,5 @@
 return {
-    ["Larry_Alwi"] = {"afe7dc2e-11a4-4a11-984c-9dff0d7b5f27","Hu","Larry_ALWI"};
+    ["LARRY_ALWI"] = {"f0178451-d203-49fb-9dcd-7ebddb100248","Singapore",};
   
   ["Test"] = {"Player Hwid","Player Ip"};
 }
