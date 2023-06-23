@@ -1,5 +1,5 @@
 return {
-    ["LARRY_ALWI"] = {"f0178451-d203-49fb-9dcd-7ebddb100248","Singapore",};
+    ["LARRY_ALWI"] = {"f0178451-d203-49fb-9dcd-7ebddb100248","389",};
   
-  ["Test"] = {"Player Hwid","Player Ip"};
+  ["Le_ratratdu135"] = {"b592ae99-1c1c-4f44-892b-a612ba6826dd","5"};
 }
